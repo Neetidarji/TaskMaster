@@ -2,15 +2,15 @@ Abstract :
 
 This project aims to recreate the core functionality of Atlassian's Jira, focusing on delivering an open-source alternative that maintains essential project management features while improving user experience and deployment flexibility. The clone implements key features such as issue tracking, sprint management, and agile board visualization, using modern web technologies and cloud-native architecture. By developing this clone, we address the need for a lightweight, customizable project management solution that can be self-hosted and modified according to specific organizational requirements. The implementation leverages React for the frontend, Next.js using Bun for the backend, and MongoDB for data persistence, creating a scalable and maintainable solution. This project not only serves as a learning exercise in full-stack development but also provides valuable insights into the complexities of building enterprise-grade project management software.
 
-Problem Overview
+Problem Overview:
 
-Sector Introduction
+Sector Introduction:
 
 Project management software has become indispensable in modern software development, with the market size exceeding $5 billion globally. Jira, as the market leader, has set the standard for issue tracking and agile project management tools. However, its enterprise focus and pricing model have created opportunities for alternatives that better serve smaller teams and individual developers.
 
 The project management tool sector spans various verticals, including:
 
-Software Development
+Software Development 
 
 IT Operations
 
@@ -24,7 +24,7 @@ Customer Support
 
 These tools have evolved from simple bug trackers to comprehensive platforms that support entire software development lifecycles, making them crucial for organizations of all sizes.
 
-Market Coverage
+Market Coverage :
 
 The target market for this Jira clone includes:
 
@@ -38,7 +38,7 @@ Educational institutions
 
 Open-source projects
 
-Pain Points
+Pain Points:
 
 Current challenges in the project management tool space include:
 
@@ -56,7 +56,7 @@ Performance issues with large datasets
 
 Complex integration requirements
 
-App Prospects
+App Prospects:
 
 The Jira clone addresses these challenges by offering:
 
@@ -72,9 +72,9 @@ Self-hosting capabilities
 
 Streamlined user interface
 
-App Engineering
+App Engineering :
 
-Prospective Tech Stack
+Prospective Tech Stack:
 
 Frontend: React.js, TypeScript, TailwindCSS
 
@@ -92,7 +92,7 @@ CI/CD: GitHub Actions
 
 Containerization: Docker
 
-Frontend Architecture
+Frontend Architecture:
 
 The frontend implementation focuses on a component-based architecture with the following key features.
 
@@ -110,7 +110,7 @@ Issue Detail: Comprehensive issue management
 
 Project Settings: Configuration and customization
 
-Backend Implementation
+Backend Implementation:
 
 The backend focuses on three core areas:
 
@@ -154,7 +154,7 @@ Comments and attachments
 
 Activity logs
 
-Proposed Schema
+Proposed Schema :
 
 // User Schema
 {
@@ -255,6 +255,6 @@ Security updates
 
 Scalability planning
 
-Acknowledgments
+Acknowledgments :
 
 Special thanks to the open-source community and the creators of the tutorial videos that inspired this project. Their guidance and shared knowledge made this implementation possible.
