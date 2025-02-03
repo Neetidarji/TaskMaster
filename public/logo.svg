@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1200 300">
+    <path fill="#1E90FF" d="M50 75h150v150H50z" rx="30"/>
+    <path d="M87.5 150L117.5 180L162.5 120" stroke="white" stroke-width="15" fill="none"/>
+    <text font-family="Arial, sans-serif" font-size="90" fill="#1B2559" font-weight="bold" x="220" y="150">TaskMaster</text>
+    <text font-family="Arial, sans-serif" font-size="45" fill="#666666" x="220" y="210">Project Management Simplified</text>
+</svg>

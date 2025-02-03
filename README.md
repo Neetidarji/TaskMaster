@@ -1,36 +1,145 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Task Master : Simplifying the Project Managment🚀
 
-## Getting Started
+Abstract 🛠️:
 
-First, run the development server:
+This project aims to recreate the core functionality of Atlassian's Jira, focusing on delivering an open-source alternative that maintains essential project management features while improving user experience and deployment flexibility. The clone implements key features such as issue tracking, sprint management, and agile board visualization, using modern web technologies and cloud-native architecture. By developing this clone, we address the need for a lightweight, customizable project management solution that can be self-hosted and modified according to specific organizational requirements. The implementation leverages React for the frontend, Next.js using Bun for the backend, and MongoDB for data persistence, creating a scalable and maintainable solution. This project not only serves as a learning exercise in full-stack development but also provides valuable insights into the complexities of building enterprise-grade project management software.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Problem Overview📄:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Task Master is a Project Management Application that brings together task management , collaboration of team and tracking the progress of task . By taking the key functionalities of the Jira, Task Master offers a familiar and simplified project management solutions to users.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+App Engineering 🎯:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Prospective Tech Stack
 
-## Learn More
+Frontend: React.js, TypeScript, TailwindCSS for interactive UI.
 
-To learn more about Next.js, take a look at the following resources:
+Backend: Next.js, Express.js for scalable abd robust Server side architecture.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Database: MongoDB for flexible and document based storage.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Cloud Hosting: Cloudfare Pages .
 
-## Deploy on Vercel
+Frontend Architecture🛠️:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Dashboard: Project overview and metrics
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Board View: Kanban/Scrum board implementation
+
+Backlog: Issue list and prioritization
+
+Sprint Planning: Sprint creation and management
+
+Issue Detail: Comprehensive issue management
+
+Project Settings: Configuration and customization
+
+Backend Implementation🛠️:
+
+Authentication and Authorization
+
+Issue Management
+
+Project Management
+
+Task Management
+
+Sprint Planning
+
+Database Handling🔗:
+
+Data Types
+
+User data (profiles, preferences)
+
+Project metadata
+
+Issue records
+
+Sprint information
+
+Comments and attachments
+
+Activity logs
+
+Database Solutions : MongoDB Atlas for flexibility and scalability.
+
+Current Solutions⚡:
+
+Closest Alternatives
+
+Trello
+
+Price: Free - $17.50/user/month.
+
+Core Features: Kanban boards, basic automation.
+
+Missing Features: Advanced reporting, custom workflows.
+
+Issues: Limited agile support.
+
+Jira 
+
+Price: Free -  $7.53 per user / month.
+
+Core Features: Organize tasks into sprints for agile teams.
+
+Missing Features: Can be huge for Non technical users.
+
+Issues: Limited flexibility in some features without plugins.
+
+Feature
+
+Jira
+
+Trello
+
+Price
+
+Expensive
+
+Freemium
+
+Task Tracking
+
+Good
+
+Good
+
+Sprint Planning
+
+Good
+
+Not That Good
+
+Ease of Use
+
+Complex
+
+Easy But Limited
+
+Tools and Prerequisites🌟:
+
+Hosting Requirements
+
+PaaS: Cloudfare pages for easy Deployment and scaling.
+
+Domain: Custom domain that reflects the brand identity.
+
+Database: MongoDB Atlas .
+
+Operational Considerations
+
+Regular database backups
+
+User data privacy compliance
+
+Performance monitoring
+
+Security updates
+
+Scalability planning
+
+Acknowledgments🌟:
+
+A heartfelt thanks to my mentor Smaranjit Ghose sir , for their invaluable guidance throughout this project.Special thanks to the open-source community and the creators of the tutorial videos that inspired this project. Their guidance and shared knowledge made this implementation possible.
